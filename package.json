@@ -12,11 +12,9 @@
   },
   "keywords": [
     "create",
-    "war",
-    "deploy",
-    "package"
+    "war"
   ],
-  "author": "ksc",
+  "author": "Kai Schönberger",
   "license": "MIT",
   "dependencies": {
     "archiver": "^3.1.1"
