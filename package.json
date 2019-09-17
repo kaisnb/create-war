@@ -1,0 +1,24 @@
+{
+  "name": "create-war",
+  "version": "1.0.0",
+  "description": "Tool to create a .war File from commandline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npm pack"
+  },
+  "bin": {
+    "create-war": "bin/index.js"
+  },
+  "keywords": [
+    "create",
+    "war",
+    "deploy",
+    "package"
+  ],
+  "author": "ksc",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^3.1.1"
+  }
+}
